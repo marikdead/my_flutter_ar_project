@@ -17,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      backgroundColor: Colors.black, // Set the background color to black
+      backgroundColor: Colors.black,
       body: const QRScannerWidget(),
     );
   }
